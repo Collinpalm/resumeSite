@@ -20,7 +20,7 @@ $resumeSite-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$resumeSite-theme: mat.define-light-theme((
+$resumeSite-theme: mat.define-dark-theme((
   color: (
     primary: $resumeSite-primary,
     accent: $resumeSite-accent,
