@@ -1,0 +1,36 @@
+:root{
+    --primary-color:#fff;
+    --background-color:default;
+    --text-color: default;
+}
+
+body{
+    width:100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Lato;
+    padding: 50px;
+    margin: 0;
+}
+
+
+
+.hintro{
+    margin:auto;
+    width: 30%;
+    height: 80px;
+    position: absolute;
+    float:left;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.intro{
+    margin:auto;
+    width: 50%;
+    height: auto;
+    position: relative;
+    float:left;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
