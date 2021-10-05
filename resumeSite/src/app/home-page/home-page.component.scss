@@ -14,23 +14,22 @@ body{
 }
 
 
-
-.hintro{
-    margin:auto;
-    width: 30%;
-    height: 80px;
-    position: absolute;
-    float:left;
-    flex-wrap: wrap;
-    padding-top: 30px;
+#tp-card{
+    max-width: 30%;
+    margin: 25px;
+    float: left;
 }
 
-.intro{
-    margin:auto;
-    width: 50%;
-    height: auto;
-    position: relative;
-    float:left;
-    flex-wrap: wrap;
-    padding-top: 50px;
+#tp-card-lower{
+    max-width: 30%;
+    margin: 25px;
+    float: right;
+    margin-right: 5%;
+}
+
+#footer{
+    text-align: center;
+    position:absolute;
+    margin-left: 45%;
+    bottom: 0px;
 }
