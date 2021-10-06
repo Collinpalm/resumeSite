@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { SharedModule } from '../shared.module';
+
 import { DOCUMENT } from '@angular/common';
 
 @Component({

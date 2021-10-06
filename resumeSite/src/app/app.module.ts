@@ -6,14 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { HomePageComponent } from './home-page/home-page.component';
-import { ThemeSwitchComponent } from './shared/theme-switch/theme-switch.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
-    ThemeSwitchComponent
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

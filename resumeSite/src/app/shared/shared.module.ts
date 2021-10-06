@@ -14,6 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ShellComponent } from './shell/shell.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle'
+import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
 
 const components = [ShellComponent];
 
@@ -36,12 +37,13 @@ const modules = [
 ];
 
 @NgModule({
-  declarations: [...components, ShellComponent],
+  declarations: [...components, ShellComponent, ThemeSwitchComponent],
   imports: [...modules],
   exports: [
     ...components,
     ...modules,
     ShellComponent,
+    ThemeSwitchComponent
   ]
 })
 export class SharedModule { }
