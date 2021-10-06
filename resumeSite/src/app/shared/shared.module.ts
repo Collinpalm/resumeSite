@@ -13,12 +13,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ShellComponent } from './shell/shell.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle'
 
 const components = [ShellComponent];
 
 const modules = [
   CommonModule,
   MatButtonModule,
+  MatButtonToggleModule,
   MatToolbarModule,
   MatIconModule,
   LayoutModule,
