@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -13,15 +14,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ShellComponent } from './shell/shell.component';
-import { MatButtonToggleModule } from '@angular/material/button-toggle'
-import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
 
 const components = [ShellComponent];
 
 const modules = [
   CommonModule,
   MatButtonModule,
-  MatButtonToggleModule,
   MatToolbarModule,
   MatIconModule,
   LayoutModule,
@@ -37,13 +35,11 @@ const modules = [
 ];
 
 @NgModule({
-  declarations: [...components, ShellComponent, ThemeSwitchComponent],
+  declarations: [...components],
   imports: [...modules],
   exports: [
     ...components,
     ...modules,
-    ShellComponent,
-    ThemeSwitchComponent
   ]
 })
-export class SharedModule { }
+export class SharedModule {}
