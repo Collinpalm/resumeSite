@@ -28,10 +28,6 @@
     z-index: 1;
   }
   
-  .fill-space {
-    flex: 1 1 auto;
-  }
-  
   i {
     font-style: normal;
     font-size: 1.25em;
@@ -43,3 +39,9 @@
     border-radius: 50%;
     margin: 0 10px 5px;
   }
+
+  .toolbar-flex {
+    flex: 1 0.5 auto;
+  }
+  
+  
