@@ -1,18 +1,39 @@
-.namewrapper{
+.introwrapper{
     height: fit-content;
-    width: fit-content;
+    width: 40%;
+    float: left;
+    clear: none;
+    margin-left: 5%;
 }
 
 .name{
     font-size: x-large;
     font-weight: bolder;
+    text-align: center;
 }
 
-.descriptionwrapper{
-    width: 40%;
-    height: fit-content;
-    top: 200px;
-}
-#description{
+.description{
     text-align: center;
+    padding : 1%;
+}
+
+.imagewrapper{
+    width: 30%;
+    height: fit-content;
+    float: left;
+    clear: none;
+    margin-left: 20%;
+}
+
+.separator{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.fix{
+    clear: both;
+}
+
+.header-flex {
+    flex: 1 0.5 auto;
 }
