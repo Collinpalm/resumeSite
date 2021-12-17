@@ -1,11 +1,18 @@
-#name{
-    text-align: center;
+.namewrapper{
+    height: fit-content;
     width: fit-content;
-    height:fit-content;
 }
 
-#description{
-    text-align: center;
+.name{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.descriptionwrapper{
     width: 40%;
     height: fit-content;
+    top: 200px;
+}
+#description{
+    text-align: center;
 }
