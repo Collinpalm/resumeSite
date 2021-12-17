@@ -48,7 +48,15 @@
         <div>
             <mat-tab-group mat-align-tabs="center" dynamicHeight="true">
                 <mat-tab label="Resume">
-
+                    <mat-grid-list cols="4" rowHeight="fit">
+                        <mat-grid-tile
+                            *ngFor="let tile of tiles"
+                            [colspan]="tile.cols"
+                            [rowspan]="tile.rows"
+                            [style.background]="tile.color">
+                            {{tile.text}}
+                        </mat-grid-tile>
+                    </mat-grid-list>
                 </mat-tab>
                 <mat-tab label="Experience">
 
