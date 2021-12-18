@@ -119,7 +119,6 @@ section {
 }
 
 .list{
-    list-style-type: none;
     text-align: center;
 }
 
@@ -130,5 +129,10 @@ section {
 }
 
 .grid-list-card{
-    background-color: #FFA000;
+    background-color: #FF6F00;
+    width: 20%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 10px;
 }
