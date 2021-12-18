@@ -19,11 +19,4 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  tiles: Tile[] = [
-    {text: 'One', cols: 1, rows: 1, color: '#FFC107'},
-    {text: 'Two', cols: 1, rows: 1, color: '#FFB300'},
-    {text: 'Three', cols: 1, rows: 1, color: '#FFC107'},
-    {text: 'Four', cols: 1, rows: 1, color: '#FFB300'},
-  ];
-
 }
