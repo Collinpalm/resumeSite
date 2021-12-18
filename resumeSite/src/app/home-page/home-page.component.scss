@@ -108,8 +108,21 @@ section {
 }
 .mat-tab-group {
     margin-bottom: 48px;
-  }
+}
 
 .education-grid-list{
     padding: 5%;
+}
+
+.tabs{
+    width: 100%;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.tab-internal-header{
+    text-decoration: underline;
+    font-size: large;
 }
