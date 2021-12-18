@@ -120,9 +120,15 @@ section {
 
 .list{
     list-style-type: none;
+    text-align: center;
 }
 
 .tab-internal-header{
     text-decoration: underline;
     font-size: large;
+    text-align: center;
+}
+
+.grid-list-card{
+    background-color: #FFA000;
 }
