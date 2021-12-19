@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .body{
     overflow: visible;
 }
@@ -148,5 +150,18 @@ section {
 .eperience-tab-internal-header{
     text-decoration: underline;
     font-size: large;
+    text-align: center;
+}
+
+.interest-list-card{
+    background-color: #FF6F00;
+    width: 20%;
+    float: left;
+    margin:3%;
+}
+
+.interest-tab-internal-header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
     text-align: center;
 }
