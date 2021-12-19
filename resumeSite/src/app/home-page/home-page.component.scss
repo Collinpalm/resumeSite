@@ -53,53 +53,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: fit-content;
-}
-
-.custom-shape-divider-bottom-1639780271 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1639780271 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 71px;
-}
-
-.custom-shape-divider-bottom-1639780271 .shape-fill {
-    fill: #673AB7;
+    height: fit-content;
 }
 
 .separation{
     background-color: #673AB7;
 }
 
-.custom-shape-divider-top-1639780551 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1639780551 svg {
-    position: relative;
-    display: block;
-    width: calc(140% + 1.3px);
-    height: 62px;
-}
-
-.custom-shape-divider-top-1639780551 .shape-fill {
-    fill: #673AB7;
-}
 
 .bottom-section{
     padding-top: 15%;
@@ -153,15 +113,15 @@ section {
     text-align: center;
 }
 
-.interest-list-card{
-    background-color: #FF6F00;
-    width: 20%;
-    float: left;
-    margin:3%;
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.interest-tab-internal-header{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    text-align: center;
+.layer1 {
+    background-image: url('./bottom.svg');
 }
