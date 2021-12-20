@@ -41,7 +41,6 @@
 .fix{
     clear: both;
     padding-top: 10%;
-    padding-bottom: 20%;
 }
 
 .header-flex {
@@ -62,7 +61,7 @@ section {
 
 
 .bottom-section{
-    padding-top: 15%;
+    padding-top: 0%;
 }
 
 .resume{
@@ -76,9 +75,6 @@ section {
     padding: 5%;
 }
 
-.tabs{
-    width: 100%;
-}
 
 .list{
     text-align: center;
@@ -124,4 +120,21 @@ section {
 
 .layer1 {
     background-image: url('./bottom.svg');
+}
+
+.spacer2 {
+    aspect-ratio: 920/300;
+    width: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer2 {
+    background-image: url('./top.svg');
+}
+
+.footer{
+    background-color: #673AB7;
 }
