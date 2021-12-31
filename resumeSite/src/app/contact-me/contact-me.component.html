@@ -1,10 +1,19 @@
 <body>
     <section>
         <div>
-            
+            <h2>Contact Information</h2>
+            <mat-grid-list cols="2" rowHeight="100px" width=40%>
+                <mat-grid-tile
+                    *ngFor="let tile of tiles"
+                    [colspan]="tile.cols"
+                    [rowspan]="tile.rows"
+                    width = span>
+                  {{tile.text}}
+                </mat-grid-tile>
+              </mat-grid-list>
         </div>
     </section>
-    <section>
-
+    <section class="footer">
+        <h1>Portfolio Website for and by: Collin Palm</h1>
     </section>
 </body>
