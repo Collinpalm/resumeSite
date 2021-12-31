@@ -1,16 +1,36 @@
 <body>
     <section>
-        <div>
-            <h2>Contact Information</h2>
-            <mat-grid-list cols="2" rowHeight="100px" width=40%>
-                <mat-grid-tile
-                    *ngFor="let tile of tiles"
-                    [colspan]="tile.cols"
-                    [rowspan]="tile.rows"
-                    width = span>
-                  {{tile.text}}
-                </mat-grid-tile>
-              </mat-grid-list>
+        <div class="contact_info_section">
+            <h2 class = "contact_info_title">Contact Information</h2>
+            <mat-card class="contact_info_card">
+                <mat-card-title>Personal Email</mat-card-title>
+                <mat-card-content class="contact_info_element">new personal email</mat-card-content>
+                <mat-card-footer margin = 5px font-size = small>For general contact and discussion</mat-card-footer>
+            </mat-card>
+            <mat-card class="contact_info_card">
+                <mat-card-title>Academic Email</mat-card-title>
+                <mat-card-content class="contact_info_element">collinpalm@knights.ucf.edu</mat-card-content>
+                <mat-card-footer margin = 5px font-size = small>For discussion about academics and University related issues</mat-card-footer>
+            </mat-card>
+        </div>
+    </section>
+    <section>
+        <div class="link_info_section">
+            <h2 class = "link_info_title">My Links</h2>
+            <mat-card class="link_info_card">
+                <mat-card-title class="link_info_element">
+                    <img src="GitHub-Mark-32px.png">
+                    <p class="github_logo_formatting">Github</p>
+                    
+                </mat-card-title>
+                <mat-card-footer margin = 5px font-size = small>For software repositories and past work</mat-card-footer>
+            </mat-card>
+            <mat-card class="link_info_card">
+                <mat-card-content class="link_info_element">
+                    linkedin
+                </mat-card-content>
+                <mat-card-footer margin = 5px font-size = small>For my work record and communication</mat-card-footer>
+            </mat-card>
         </div>
     </section>
     <section class="footer">
