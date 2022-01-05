@@ -6,6 +6,24 @@ section {
     height: fit-content;
     width: 100%;
 }
+a{
+    max-width: 20%;
+    min-width: 150px;
+    align-content: center;
+}
+
+a[href^="mailto:"]
+{ 
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.button_internal{
+    float: left;
+    margin: 15px;
+}
 
 .footer {
     left: 0;
@@ -30,6 +48,7 @@ section {
     text-decoration: underline;
     font-size: larger;
     margin : 30px;
+    
 }
 
 .contact_info_card{
@@ -63,8 +82,8 @@ section {
     margin : 5%;
 }
 
-.github_logo_formatting{
+.link_info_button{
+    width: fit-content;
     display: inline-block;
-    margin:15px;
-
+    margin : 5%;
 }
