@@ -3,9 +3,111 @@
 
 @include mat.core();
 
-$dark-primary: mat.define-palette(mat.$deep-purple-palette);
-$dark-accent: mat.define-palette(mat.$amber-palette, A200, A100, A400);
-$dark-warn: mat.define-palette(mat.$deep-orange-palette);
+//#4a0489 main
+//#d1f3f4 accent
+//#ffea9f warn
+$md-mainpurple: (
+    50 : #e9e1f1,
+    100 : #c9b4dc,
+    200 : #a582c4,
+    300 : #804fac,
+    400 : #652a9b,
+    500 : #4a0489,
+    600 : #430381,
+    700 : #3a0376,
+    800 : #32026c,
+    900 : #220159,
+    A100 : #ac8bff,
+    A200 : #8858ff,
+    A400 : #6325ff,
+    A700 : #510bff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+$md-mainteal: (
+    50 : #f9fefe,
+    100 : #f1fbfc,
+    200 : #e8f9fa,
+    300 : #dff7f7,
+    400 : #d8f5f6,
+    500 : #d1f3f4,
+    600 : #ccf1f3,
+    700 : #c6eff1,
+    800 : #c0edef,
+    900 : #b5eaec,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$md-mainwarn: (
+    50 : #fffcf3,
+    100 : #fff9e2,
+    200 : #fff5cf,
+    300 : #fff0bc,
+    400 : #ffedad,
+    500 : #ffea9f,
+    600 : #ffe797,
+    700 : #ffe48d,
+    800 : #ffe183,
+    900 : #ffdb72,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #fffefa,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$dark-primary: mat.define-palette($md-mainpurple);
+$dark-accent: mat.define-palette($md-mainteal);
+$dark-warn: mat.define-palette($md-mainwarn);
 
 $light-primary: mat.define-palette(mat.$indigo-palette);
 $light-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
