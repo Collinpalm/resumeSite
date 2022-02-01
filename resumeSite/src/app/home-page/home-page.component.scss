@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import '~@angular/material/theming';
 
-
+@include mat-core(); 
 
 .body{
     overflow: visible;
