@@ -1,3 +1,12 @@
+@use '~@angular/material' as mat;
+@use 'sass:map';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import '~@angular/material/theming';
+
+@include mat.core;
+
+@import 'src/styles.scss';
+
 section {
     position: relative;
     display: flex;
@@ -86,4 +95,20 @@ a[href^="mailto:"]
     width: fit-content;
     display: inline-block;
     margin : 5%;
+}
+
+.footer{
+    background-color: mat.get-color-from-palette($theme-primary, 500);
+}
+.spacer3 {
+    aspect-ratio: 920/300;
+    width: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer3 {
+    background-image: url('./footer.svg');
 }
