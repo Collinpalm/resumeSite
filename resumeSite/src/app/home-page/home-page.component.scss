@@ -100,7 +100,8 @@ section {
 }
 
 .grid-list-card{
-    background-color: #FF6F00;
+    background-color: mat.get-color-from-palette($theme-accent, 500);
+    color: black;
     width: 20%;
     float: left;
     margin-left: 3%;
@@ -108,7 +109,8 @@ section {
     padding: 10px;
 }
 .experience-list-card{
-    background-color: #FF6F00;
+    background-color: mat.get-color-from-palette($theme-accent, 500);
+    color: black;
     width: 20%;
     float: left;
     margin-left: 3%;
