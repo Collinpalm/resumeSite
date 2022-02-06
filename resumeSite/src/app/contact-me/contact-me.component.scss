@@ -97,9 +97,40 @@ a[href^="mailto:"]
     margin : 5%;
 }
 
+.spacer1 {
+    aspect-ratio: 900/50;
+    width: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('./toplinks.svg');
+}
+
+.linkspacer{
+    background-color: mat.get-color-from-palette($theme-primary, 500);
+}
+
+.spacer2 {
+    aspect-ratio: 900/50;
+    width: 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer2 {
+    background-image: url('./bottomlinks.svg');
+}
+
 .footer{
     background-color: mat.get-color-from-palette($theme-primary, 500);
 }
+
 .spacer3 {
     aspect-ratio: 920/300;
     width: 100%;
@@ -110,5 +141,5 @@ a[href^="mailto:"]
 }
 
 .layer3 {
-    background-image: url('./footer.svg');
+    background-image: url('./footer contact page.svg');
 }
